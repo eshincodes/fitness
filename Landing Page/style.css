@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  
+   
+   
+    
+}
+header{
+    width: 100%;
+    min-height:80vh;
+    padding: 0 8%;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo{
+    width: 80px;
+    color: aliceblue;
+    font-weight: bold;
+}
+span{
+    width: 60px;
+    color: blueviolet;
+}
+nav ul{
+   width: 100%;
+   text-align: right;
+   list-style: none;
+   margin-right: 70px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 5px 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+nav ul li a:hover{
+    color: blueviolet;
+}
+button{
+    border: 1px solid blueviolet;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+   background-color: blueviolet;
+   border-radius: 5px;
+   font-weight: 500;
+
+   
+}
+.title{
+    color: aliceblue;
+    position: relative;
+    margin-top: 150px;
+}
+.image{
+    width: 200px;
+    position: absolute;
+   right:150px;
+   top: 130px;
+    
+}
+.more{
+    border: 1px solid blueviolet;
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    color: aliceblue;
+   background-color: blueviolet;
+   border-radius: 5px;
+   font-weight: 500;
+   margin-top: 20px;
+
+}
+.Highlights{
+    text-align: center;
+    color: blueviolet;
+    background-color: black;
+}
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 15%;
+    gap: 50px;
+    justify-content: center;
+   padding: 60px;
+    background-color: black;
+  }
+  
+  
+  .course{
+   flex-basis: 20%;
+    height: 200px;
+    
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .course img{
+    width: 70px;
+    transition: transform 0.3s ease;
+  }
+  .course:hover img{
+  transform: scale(1.1);
+  }
+  .course p{
+  position: relative;
+   font-size: 15px;
+    color:white;
+    font-weight: bold;
+  }
+  p{
+    font-size: 6px;
+  }
+  /*follow us on */
+  .media-icons{
+    display: flex;
+  }
+  .media-icons a{
+    height: 40px;
+    width: 40px;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+  .media-icons a:nth-child(1){
+    background: #4267B2;
+  }
+  .media-icons a:nth-child(1):hover{
+    color: #4267B2;
+    background: #fff;
+  }
+   .media-icons a:nth-child(2){
+    background: #1DA1F2;
+  }
+   .media-icons a:nth-child(2):hover{
+    color: #1DA1F2;
+    background: #fff;
+  }
+   .media-icons a:nth-child(3){
+    background: #E1306C;
+  }
+   .media-icons a:nth-child(3):hover{
+    color: #E1306C;
+    background: #fff;
+  }
+   .media-icons a:nth-child(4){
+    background: #0077B5;
+  }
+   .media-icons a:nth-child(4):hover{
+    color: #0077B5;
+    background: #fff;
+  }
+  .media-icons a:nth-child(5){
+    background: #FF0000;
+  }
+  .media-icons a:nth-child(5):hover{
+    color: #FF0000;
+    background: #fff;
+  }
+  .email input{
+    width: 300px;
+    height: 40px;
+    color:black;
+    font-size: 15px;
+  }
+  hr{
+    border: 1px solid blueviolet;
+  }
